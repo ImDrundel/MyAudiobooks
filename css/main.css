@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+.main-div {
+    background-color: #ededed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    text-align: center;
+    margin: 0 0 30px 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+
+}
+
+.list {
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/* Блок книги*/
+.list-item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+
+}
+
+.list-item:first-child {
+    margin: 0 0 10px 0;
+}
+
+.list-header {
+    background-color: dimgray;
+    border-radius: 50px 20px 20px 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 5px 0;
+}
+
+.list-name {
+    padding: 0 0 0 25px;
+    height: 34px;
+    line-height: 34px;
+    color: #f5f5f5;
+    flex: 1 1 auto;
+    font-size: 18px;
+}
+
+.list-books-count {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 5px 0 0;
+    padding: 0 7px 0 7px;
+    line-height: 30px;
+    background-color: #f5f5f5;
+}
+
+.list-rating {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 7px 0 7px;
+    line-height: 30px;
+    background-color: #f5f5f5;
+}
+
+.list-info {
+    margin: 0 -2px 0 -2px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ededed;
+}
+
+.list-image {
+    margin: 0 2px 0 2px;
+    flex: 0 0 150px;
+}
+
+.list-image img {
+    order: 1;
+    max-width: 100%;
+}
+
+.list-description {
+    margin: 0 2px 0 2px;
+    order: 3;
+    padding: 5px 15px 5px 15px;
+    flex: 1 1 auto;
+    background-color: dimgray;
+    border-radius: 0 0 50px 0;
+}
+
+.list-autor-and-links {
+    flex: 0 0 200px;
+    margin: 0 2px 0 2px;
+    padding: 5px 5px 5px 5px;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-autor {
+    flex: 1 1 auto;
+}
+
+.list-audio-link {}
+
+.list-series-link {}
+
+/* Конец блока */
+.footer {
+    text-align: center;
+    color: #ededed;
+    background-color: dimgray;
+    border-radius: 15px 15px 0 0;
+}
