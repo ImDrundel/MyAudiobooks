@@ -19,10 +19,10 @@
 }
 
 .list {
-    margin: 0 10% 0 10%;
+    margin: 0 10vh 0 10vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+
 }
 
 
@@ -76,6 +76,7 @@
     margin: 0 -2px 0 -2px;
     display: flex;
     flex-direction: row;
+    max-width: 100%;
     background-color: #ededed;
 }
 
@@ -95,23 +96,31 @@
     padding: 5px 15px 5px 15px;
     flex: 1 1 auto;
     background-color: dimgray;
-    border-radius: 0 0 50px 0;
+    border-radius: 2px 2px 15px 2px;
+    max-height: 210px;
+    overflow-y: auto;
 }
 
 .list-autor-and-links {
     flex: 0 0 200px;
     margin: 0 2px 0 2px;
-    padding: 5px 5px 5px 5px;
+    padding: 0px 5px 5px 5px;
     order: 2;
     display: flex;
     flex-direction: column;
+
+    max-height: 225px;
 }
 
 .list-autor {
     flex: 1 1 auto;
+    max-height: 90%;
+    overflow-y: auto;
 }
 
-
+.list-audio-link {
+    padding: 5px 0 0 0;
+}
 
 /* Конец блока */
 .footer {
@@ -119,4 +128,5 @@
     color: #ededed;
     background-color: dimgray;
     border-radius: 15px 15px 0 0;
+    margin: 50px 0 0 0;
 }
